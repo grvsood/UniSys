@@ -1,0 +1,66 @@
+/* Styles go here */
+body{
+  background-image: url(./backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .mainDiv{
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: calc(05%);
+    width: 90%;
+} */
+.card{
+  height: 100px;
+}
+.indexDiv {
+  background-color:#FFFFFF;
+}
+.inner {
+  background-color: #DDDDDD;
+  flex-grow : 1;
+}
+.row{
+  padding-top: 150px;
+}
+.cd{
+cursor: pointer;
+}
+
+.demo-card-square.mdl-card {
+  width: 250px;
+  height: 250px;
+
+}
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background-color: #4083D4;
+}
+
+.studentlogo{
+  background: url('./adminlogo.png') ;
+}
+.registerlogo{
+  background: url('./registerlogo.png') ;
+}
+.logreportslogo{
+  background: url('./logreportslogo.png') ;
+}
+.adminlogo{
+  background: url('./studentlogo.png') ;
+}
+.studentlogo,.registerlogo,.logreportslogo,.adminlogo{
+  background-size: 200px ;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
